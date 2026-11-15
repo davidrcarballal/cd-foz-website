@@ -98,3 +98,12 @@
 		margin: 20px auto;
 		border-radius: 10px;
 	}
+	.town {
+		display: block;
+		width: 100%;
+		max-width: 800px;
+		max-height: 500px;
+		object-fit: contain;
+		margin: 20px auto;
+		border-radius: 10px;
+	}
