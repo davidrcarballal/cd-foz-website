@@ -3,31 +3,41 @@
     "local": "CD Foz",
     "visitante": "SDC Residencia",
     "fecha": "2026-09-06",
-    "resultado": "2 - 1"
+    "resultado": "2 - 1",
+    "escudoLocal": "escudos/foz.png",
+    "escudoVisitante": "escudos/residencia.webp"
   },
   {
     "local": "Monterroso",
     "visitante": "CD Foz",
     "fecha": "2026-09-13",
-    "resultado": "0 - 2"
+    "resultado": "0 - 2",
+    "escudoLocal": "escudos/monterroso.webp",
+    "escudoVisitante": "escudos/foz.png"
   },
   {
     "local": "CD Foz",
-    "visitante": "Cire Melide",
+    "visitante": "Pontenova",
     "fecha": "2026-09-20",
-    "resultado": "3 - 0"
+    "resultado": "3 - 0",
+    "escudoLocal": "escudos/foz.png",
+    "escudoVisitante": "escudos/pontenova.webp"
   },
   {
-    "local": "CD Brollón",
+    "local": "Riotorto",
     "visitante": "CD Foz",
     "fecha": "2026-09-27",
-    "resultado": "1 - 1"
+    "resultado": "1 - 1",
+    "escudoLocal": "escudos/riotorto.webp",
+    "escudoVisitante": "escudos/foz.png"
   },
   {
     "local": "Ribadeo FC",
     "visitante": "CD Foz",
     "fecha": "2026-10-04",
-    "resultado": "2 - 3"
+    "resultado": "2 - 3",
+    "escudoLocal": "escudos/ribadeo.webp",
+    "escudoVisitante": "escudos/foz.png"
   },
   {
     "local": "CD Foz",
@@ -36,38 +46,38 @@
     "resultado": "2 - 0"
   },
   {
-    "local": "UD Folgueiro",
+    "local": "Sd Castroverde",
     "visitante": "CD Foz",
     "fecha": "2026-10-18",
     "resultado": "1 - 2"
   },
   {
     "local": "CD Foz",
-    "visitante": "Becerreá",
+    "visitante": "Valadouro",
     "fecha": "2026-10-25",
     "resultado": "4 - 1"
   },
   {
-    "local": "CD Guntín",
+    "local": "Burela",
     "visitante": "CD Foz",
     "fecha": "2026-11-01",
     "resultado": "2 - 2"
   },
   {
     "local": "CD Foz",
-    "visitante": "SD Oural",
+    "visitante": "Castro",
     "fecha": "2026-11-08",
     "resultado": "3 - 1"
   },
   {
-    "local": "Taboada CF",
+    "local": "Folgueiro",
     "visitante": "CD Foz",
     "fecha": "2026-11-15",
     "resultado": "Pendiente"
   },
   {
     "local": "CD Foz",
-    "visitante": "Chantada Atlético",
+    "visitante": "Mondoñedo",
     "fecha": "2026-11-22",
     "resultado": "Pendiente"
   },

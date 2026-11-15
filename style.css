@@ -36,7 +36,7 @@
 		text-decoration: none;
 	}
 	nav a:hover {
-     color: #ffcc00;
+    	color: #ffcc00;
 	}
 
 	.dynamic {
@@ -63,6 +63,21 @@
 		color: #777;
 		font-size: 14px;
 	}
+	.escudo-equipo {
+		width: 55px;
+		height: 55px;
+		object-fit: contain;
+		margin: 0;
+	} 
+
+	.marcador {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+	}
+
 
 	
 	.partido-card h2 {
@@ -70,8 +85,8 @@
 		font-size: 32px;
 	}
 	.partido-card:hover {
-    transform: translateY(-5px);
-    transition: transform 0.3s;
+		transform: translateY(-5px);
+		transition: transform 0.3s;
 	}
 	
 	.plantilla {
