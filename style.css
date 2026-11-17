@@ -1,7 +1,7 @@
     html {
 		color: #edf1f1;
 		background: rgb(218, 36, 8);
-		font-family: "Comic Sans MS", Arial, sans-serif;
+		font-family:Arial, Helvetica, sans-serif;
 		text-align: center;
     }
 	p{
@@ -15,9 +15,11 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		padding: 20px;
 		background-color: #b5121b;
 		padding: 15px 40px;
+		position: sticky;
+		top:0;
+		z-index: 1000;
 	}
 	.escudo {
 		width: 45px;
@@ -44,6 +46,18 @@
 		grid-template-columns: repeat(3, 1fr);
 		gap: 10px;
 		margin-top: 30px;
+	}
+	
+	@media (max-width: 900px) {
+		.dynamic {
+			grid-template-columns: repeat(2, 1fr);
+		}
+	}
+     
+	@media (max-width: 600px) {
+		.dynamic {
+			grid-template-columns: 1fr;
+		}
 	}
 	.partido-card {
 		background-color: #ffffff;
@@ -83,13 +97,13 @@
 	.partido-card h2 {
 		color: #c8102e;
 		font-size: 32px;
+		transition: transform 0.3s;
 	}
 	.partido-card:hover {
 		transform: translateY(-5px);
-		transition: transform 0.3s;
 	}
 	
-	.plantilla {
+	.plantilla ,.town {
 		display: block;
 		width: 100%;
 		max-width: 800px;
@@ -98,12 +112,35 @@
 		margin: 20px auto;
 		border-radius: 10px;
 	}
-	.town {
-		display: block;
-		width: 100%;
-		max-width: 800px;
-		max-height: 500px;
-		object-fit: contain;
-		margin: 20px auto;
-		border-radius: 10px;
+	.corazon {
+		width: 80px;
+		height: auto;
+		animation: latido 1.2s ease-in-out infinite;
+	}
+    .instagram{
+		width: 40px;
+		height: auto;
+
+	}
+
+	@keyframes latido {
+		0% {
+			transform: scale(1);
+		}
+
+		25% {
+			transform: scale(1.15);
+		}
+
+		50% {
+			transform: scale(1);
+		}
+
+		75% {
+			transform: scale(1.15);
+		}
+
+		100% {
+			transform: scale(1);
+		}
 	}
