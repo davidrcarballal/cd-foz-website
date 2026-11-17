@@ -1,124 +1,107 @@
 <html>
-
-<head>
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/png" href="/escudo_sin_fondo.png">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/escudo_sin_fondo.png" />
     <title>CD Foz - Página Oficial</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="fetch.js" defer></script>
-</head>
+    <script src="filter.js" defer></script>
+  </head>
 
-<body>
-
-
+  <body>
     <header>
-        <img src="escudo_sin_fondo.png" alt="Escudo del CD Foz" class="escudo">
-        <nav>
-            <a href="#inicio">Inicio</a>
-            <a href="#club">Club</a>
-            <a href="#partidos">Partidos</a>
-            <a href="#plantilla">Plantilla</a>
-            <a href="#contacto">Contacto</a>
-        </nav>
+      <img src="escudo_sin_fondo.png" alt="Escudo del CD Foz" class="escudo" />
+      <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#club">Club</a>
+        <a href="#partidos">Partidos</a>
+        <a href="#plantilla">Plantilla</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
     </header>
 
-
-
     <main>
+      <section id="inicio">
+        <h1>Club Deportivo Foz</h1>
 
-        <section id="inicio">
-            <h1>Club Deportivo Foz</h1>
+        <h2>Orgullo rojiblanco</h2>
+        <img src="corazonfoz.png" alt="Corazón del CD Foz" class="corazon" />
 
-            <h2>Orgullo rojiblanco</h2>
-            <img src="corazonfoz.png" alt="Corazón del CD Foz" class="corazon">
+        <p>
+          Bienvenidos a la página del Club Deportivo Foz. Un club de fútbol
+          lleno de historia, pasión y sentimiento por nuestros colores.
+        </p>
+      </section>
 
-            <p>
-                Bienvenidos a la página del Club Deportivo Foz.
-                Un club de fútbol lleno de historia,
-                pasión y sentimiento por nuestros colores.
-            </p>
+      <section id="club">
+        <h2>Sobre nosotros</h2>
 
-        </section>
+        <p>
+          El CD Foz es un club de fútbol de Foz, un municipio de la provincia de
+          Lugo, en Galicia.
+        </p>
+        <img src="foto_rapadoira.jpg" alt="Foto de foz" class="town" />
 
+        <p>
+          Nuestro equipo representa los valores del esfuerzo, el compañerismo y
+          la pasión por el fútbol.
+        </p>
+      </section>
 
+      <section id="partidos">
+        <h2>Partidos del CD Foz</h2>
+        <div class="filter">
+          <button id="todos">Todos</button>
+          <button id="pendientes">Pendientes</button>
+          <button id="jugados">Jugados</button>
+        </div>
+        <div class="dynamic"></div>
+      </section>
 
-        <section id="club">
-            <h2>Sobre nosotros</h2>
+      <section id="plantilla">
+        <h2>Nuestra plantilla</h2>
 
-            <p>
-                El CD Foz es un club de fútbol de Foz,
-                un municipio de la provincia de Lugo,
-                en Galicia.
-            </p>
-            <img src="foto_rapadoira.jpg" alt="Foto de foz" class="town">
+        <p>
+          Conoce a los jugadores que defienden los colores del CD Foz cada
+          temporada.
+        </p>
+        <img
+          src="foto_equipo.jpg"
+          alt="Foto de la plantilla"
+          class="plantilla"
+        />
 
-            <p>
-                Nuestro equipo representa los valores
-                del esfuerzo, el compañerismo y la
-                pasión por el fútbol.
-            </p>
-        </section>
+        <h3>Porteros</h3>
+        <p>Jugadores de la portería.</p>
+      </section>
 
+      <section id="contacto">
+        <h2>Contacto</h2>
 
+        <p>Localidad: Foz, Lugo, Galicia</p>
 
-        <section id="partidos">
-            <h2>Partidos del CD Foz</h2>
-            <div class="filter">
-                <button id="todos">Todos</button>
-                <button id="pendientes">Pendientes</button>
-                <button id="jugados">Jugados</button>
-            </div>
-            <div class="dynamic"></div>
-        </section>
-
-
-
-
-
-        <section id="plantilla">
-            <h2>Nuestra plantilla</h2>
-
-            <p>
-                Conoce a los jugadores que defienden
-                los colores del CD Foz cada temporada.
-            </p>
-            <img src="foto_equipo.jpg" alt="Foto de la plantilla" class="plantilla">
-
-            <h3>Porteros</h3>
-            <p>Jugadores de la portería.</p>
-
-        </section>
-
-
-
-        <section id="contacto">
-            <h2>Contacto</h2>
-
-            <p>Localidad: Foz, Lugo, Galicia</p>
-
-            <p>
-                Síguenos en nuestras redes sociales
-                para conocer las últimas novedades.
-            </p>
-            <a href="https://www.instagram.com/clubdeportivofoz/" target="_blank">
-                <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg"
-                    alt="Instagram" class="instagram">
-            </a>
-            <a href="https://www.facebook.com/clubdeportivofoz1928/" target="_blank">
-                <img src="facebook.png"
-                    alt="Facebook" class="facebook">
-            </a>
-
-        </section>
-
+        <p>
+          Síguenos en nuestras redes sociales para conocer las últimas
+          novedades.
+        </p>
+        <a href="https://www.instagram.com/clubdeportivofoz/" target="_blank">
+          <img
+            src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg"
+            alt="Instagram"
+            class="instagram"
+          />
+        </a>
+        <a
+          href="https://www.facebook.com/clubdeportivofoz1928/"
+          target="_blank"
+        >
+          <img src="facebook.png" alt="Facebook" class="facebook" />
+        </a>
+      </section>
     </main>
 
-
-
     <footer>
-        <p>CD Foz - Pasión por nuestros colores</p>
+      <p>CD Foz - Pasión por nuestros colores</p>
     </footer>
-
-</body>
-
+  </body>
 </html>
