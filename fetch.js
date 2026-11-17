@@ -6,75 +6,82 @@ async function main() {
         const response = await fetch('./partidoss.json');
 
         if (!response.ok) {
-            throw new Error('Error al cargar los partidos');
+            throw new Error('Error al cargar los matches');
         }
 
-        const partidos = await response.json();
+        const matches = await response.json();
 
-        for (const partido of partidos) {
+        for (const match of matches) {
 
             const entry = document.createElement('div');
-            entry.className = 'partido-card';
+            entry.className = 'match-card';
 
-      
-            const title = document.createElement('h3');
-            title.textContent =
-                partido.local + ' vs ' + partido.visitante;
-
-          
-            const fecha = document.createElement('p');
-            const fechaString = String(partido.fecha);
-
-            const año = fechaString.slice(0, 4);
-            const mes = fechaString.slice(4, 6);
-            const dia = fechaString.slice(6, 8);
-
-            fecha.textContent = 'Fecha: ' + dia + '/' + mes + '/' + año;
-
-            
-            
-            
-            const escudoLocal = document.createElement('img');
-            escudoLocal.src = './escudos/' + partido.escudoLocal + '.webp';
-            escudoLocal.alt = 'Escudo de ' + partido.local;
-            escudoLocal.className = 'escudo-equipo';
-
-           
-            const escudoVisitante = document.createElement('img');
-            escudoVisitante.src = './escudos/' + partido.escudoVisitante + '.webp';
-            escudoVisitante.alt = 'Escudo de ' + partido.visitante;
-            escudoVisitante.className = 'escudo-equipo';
-
-           
-            const resultado = document.createElement('p');
-            resultado.className = 'resultado';
-            if (partido.resultado !== null) {
-                resultado.textContent =
-                    partido.resultado[0] + ' - ' + partido.resultado[1];
+            if (match.result=== null) {
+                entry.classList.add('pendiente');
             } else {
-                resultado.textContent = 'Pendiente';
+                entry.classList.add('jugado');
             }
 
-            
+
+            const title = document.createElement('h3');
+            title.textContent =
+                match.local + ' vs ' + match.visitor;
+
+
+            const date = document.createElement('p');
+            const dateString = String(match.date);
+
+            const year = dateString.slice(0, 4);
+            const month = dateString.slice(4, 6);
+            const day = dateString.slice(6, 8);
+
+            date.textContent = 'Fecha: ' + day + '/' + month + '/' + year;
+
+
+
+
+            const shieldlocal = document.createElement('img');
+            shieldlocal.src = './escudos/' + match.shieldlocal + '.webp';
+            shieldlocal.alt = 'Escudo de ' + match.local;
+            shieldlocal.className = 'escudo-equipo';
+
+
+            const shieldvisitor = document.createElement('img');
+            shieldvisitor.src = './escudos/' + match.shieldvisitor + '.webp';
+            shieldvisitor.alt = 'Escudo de ' + match.visitor;
+            shieldvisitor.className = 'escudo-equipo';
+
+
+
+            const result = document.createElement('p');
+            result.className = 'result';
+            if (match.result !== null) {
+                result.textContent =
+                    match.result[0] + ' - ' + match.result[1];
+            } else {
+                result.textContent = 'Pendiente';
+            }
+
+
             const marcador = document.createElement('div');
             marcador.className = 'marcador';
 
-            if (partido.escudoLocal) {
-                marcador.appendChild(escudoLocal);
+            if (match.shieldlocal) {
+                marcador.appendChild(shieldlocal);
             }
 
-            marcador.appendChild(resultado);
+            marcador.appendChild(result);
 
-            if (partido.escudoVisitante) {
-                marcador.appendChild(escudoVisitante);
+            if (match.shieldvisitor) {
+                marcador.appendChild(shieldvisitor);
             }
 
-          
+
             entry.appendChild(title);
-            entry.appendChild(fecha);
+            entry.appendChild(date);
             entry.appendChild(marcador);
 
-       
+
             section.appendChild(entry);
         }
 
@@ -85,3 +92,31 @@ async function main() {
 }
 
 main();
+
+const todos = document.querySelector('#todos');
+const jugados = document.querySelector('#jugados');
+const pendientes = document.querySelector('#pendientes');
+
+todos.addEventListener('click', () => {
+    const tarjetas = document.querySelectorAll('.match-card');
+
+    for (const tarjeta of tarjetas) {
+        tarjeta.hidden = false;
+    }
+});
+
+jugados.addEventListener('click', () => {
+    const tarjetas = document.querySelectorAll('.match-card');
+
+    for (const tarjeta of tarjetas) {
+        tarjeta.hidden = !tarjeta.classList.contains('jugado');
+    }
+});
+
+pendientes.addEventListener('click', () => {
+    const tarjetas = document.querySelectorAll('.match-card');
+
+    for (const tarjeta of tarjetas) {
+        tarjeta.hidden = !tarjeta.classList.contains('pendiente');
+    }
+});

@@ -1,124 +1,124 @@
 [
   {
     "local": "CD Foz",
-    "visitante": "SDC Residencia",
-    "fecha": 20260906,
-    "resultado": [2,1],
-    "escudoLocal": "foz",
-    "escudoVisitante": "residencia"
+    "visitor": "SDC Residencia",
+    "date": 20260906,
+    "result": [2,1],
+    "shieldlocal": "foz",
+    "shieldvisitor": "residencia"
   },
   {
     "local": "Monterroso",
-    "visitante": "CD Foz",
-    "fecha": 20260913,
-    "resultado": [0,2],
-    "escudoLocal": "monterroso",
-    "escudoVisitante": "foz"
+    "visitor": "CD Foz",
+    "date": 20260913,
+    "result": [0,2],
+    "shieldlocal": "monterroso",
+    "shieldvisitor": "foz"
   },
   {
     "local": "CD Foz",
-    "visitante": "Pontenova",
-    "fecha": 20260920,
-    "resultado": [0,3],
-    "escudoLocal": "foz",
-    "escudoVisitante": "pontenova"
+    "visitor": "Pontenova",
+    "date": 20260920,
+    "result": [0,3],
+    "shieldlocal": "foz",
+    "shieldvisitor": "pontenova"
   },
   {
     "local": "Riotorto",
-    "visitante": "CD Foz",
-    "fecha": 20260927,
-    "resultado": [1,1],
-    "escudoLocal": "riotorto",
-    "escudoVisitante": "foz"
+    "visitor": "CD Foz",
+    "date": 20260927,
+    "result": [1,1],
+    "shieldlocal": "riotorto",
+    "shieldvisitor": "foz"
   },
   {
     "local": "Ribadeo FC",
-    "visitante": "CD Foz",
-    "fecha": 20261004,
-    "resultado": [2,3],
-    "escudoLocal": "ribadeo",
-    "escudoVisitante": "foz"
+    "visitor": "CD Foz",
+    "date": 20261004,
+    "result": [2,3],
+    "shieldlocal": "ribadeo",
+    "shieldvisitor": "foz"
   },
   {
     "local": "CD Foz",
-    "visitante": "Atlético Escairón",
-    "fecha": 20261011,
-    "resultado": [2,0],
-    "escudoLocal": "foz",
-    "escudoVisitante": "escairon"
+    "visitor": "Atlético Escairón",
+    "date": 20261011,
+    "result": [2,0],
+    "shieldlocal": "foz",
+    "shieldvisitor": "escairon"
   },
   {
     "local": "Sd Castroverde",
-    "visitante": "CD Foz",
-    "fecha": 20261018,
-    "resultado":[1,2],
-    "escudoLocal": "castroverde",
-    "escudoVisitante": "foz"
+    "visitor": "CD Foz",
+    "date": 20261018,
+    "result":[1,2],
+    "shieldlocal": "castroverde",
+    "shieldvisitor": "foz"
   },
   {
     "local": "CD Foz",
-    "visitante": "Valadouro",
-    "fecha": 20261025,
-    "resultado": [4,1],
-    "escudoLocal": "foz",
-    "escudoVisitante": "valadouro"
+    "visitor": "Valadouro",
+    "date": 20261025,
+    "result": [4,1],
+    "shieldlocal": "foz",
+    "shieldvisitor": "valadouro"
    
   },
   {
     "local": "Burela",
-    "visitante": "CD Foz",
-    "fecha": 20261101,
-    "resultado": [2,2],
-    "escudoLocal": "burela",
-    "escudoVisitante": "foz"
+    "visitor": "CD Foz",
+    "date": 20261101,
+    "result": [2,2],
+    "shieldlocal": "burela",
+    "shieldvisitor": "foz"
   },
   {
     "local": "CD Foz",
-    "visitante": "Castro",
-    "fecha": 20261108,
-    "resultado": [3,1],
-    "escudoLocal": "foz",
-    "escudoVisitante": "castro"
+    "visitor": "Castro",
+    "date": 20261108,
+    "result": [3,1],
+    "shieldlocal": "foz",
+    "shieldvisitor": "castro"
 
   },
   {
     "local": "Folgueiro",
-    "visitante": "CD Foz",
-    "fecha": 20261115,
-    "resultado": null,
-    "escudoLocal": "folgueiro",
-    "escudoVisitante": "foz"
+    "visitor": "CD Foz",
+    "date": 20261115,
+    "result": null,
+    "shieldlocal": "folgueiro",
+    "shieldvisitor": "foz"
   },
   {
     "local": "CD Foz",
-    "visitante": "Mondoñedo",
-    "fecha": 20261122,
-    "resultado": null,
-    "escudoLocal": "foz",
-    "escudoVisitante": "mondoñedo"
+    "visitor": "Mondoñedo",
+    "date": 20261122,
+    "result": null,
+    "shieldlocal": "foz",
+    "shieldvisitor": "mondoñedo"
   },
   {
     "local": "Racing Villalbés B",
-    "visitante": "CD Foz",
-    "fecha": 20261129,
-    "resultado": null,
-    "escudoLocal": "villalbes",
-    "escudoVisitante": "foz"
+    "visitor": "CD Foz",
+    "date": 20261129,
+    "result": null,
+    "shieldlocal": "villalbes",
+    "shieldvisitor": "foz"
   },
   {
     "local": "CD Foz",
-    "visitante": "Santaballés",
-    "fecha": 20261206,
-    "resultado": null,
-    "escudoLocal": "foz",
-    "escudoVisitante": "santaballes"
+    "visitor": "Santaballés",
+    "date": 20261206,
+    "result": null,
+    "shieldlocal": "foz",
+    "shieldvisitor": "santaballes"
   },
   {
     "local": "ED Lourenzá",
-    "visitante": "CD Foz",
-    "fecha": 20261213,
-    "resultado": null,
-    "escudoLocal": "lourenzá",
-    "escudoVisitante": "foz"
+    "visitor": "CD Foz",
+    "date": 20261213,
+    "result": null,
+    "shieldlocal": "lourenzá",
+    "shieldvisitor": "foz"
   }
 ]
