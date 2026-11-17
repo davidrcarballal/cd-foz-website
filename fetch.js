@@ -15,9 +15,9 @@ async function main() {
       entry.className = "match-card";
 
       if (match.result === null) {
-        entry.classList.add("pendiente");
+        entry.classList.add("pendant");
       } else {
-        entry.classList.add("jugado");
+        entry.classList.add("played");
       }
 
       const title = document.createElement("h3");
@@ -50,22 +50,22 @@ async function main() {
         result.textContent = "Pendiente";
       }
 
-      const marcador = document.createElement("div");
-      marcador.className = "marcador";
+      const scoreboard = document.createElement("div");
+      scoreboard.className = "scoreboard";
 
       if (match.shieldlocal) {
-        marcador.appendChild(shieldlocal);
+        scoreboard.appendChild(shieldlocal);
       }
 
-      marcador.appendChild(result);
+      scoreboard.appendChild(result);
 
       if (match.shieldvisitor) {
-        marcador.appendChild(shieldvisitor);
+        scoreboard.appendChild(shieldvisitor);
       }
 
       entry.appendChild(title);
       entry.appendChild(date);
-      entry.appendChild(marcador);
+      entry.appendChild(scoreboard);
 
       section.appendChild(entry);
     }
