@@ -15,7 +15,7 @@ async function main() {
       entry.className = "match-card";
 
       if (match.result === null) {
-        entry.classList.add("pendant");
+        entry.classList.add("pending");
       } else {
         entry.classList.add("played");
       }
@@ -35,12 +35,12 @@ async function main() {
       const shieldlocal = document.createElement("img");
       shieldlocal.src = "./escudos/" + match.shieldlocal + ".webp";
       shieldlocal.alt = "Escudo de " + match.local;
-      shieldlocal.className = "escudo-equipo";
+      shieldlocal.className = "team-shield";
 
       const shieldvisitor = document.createElement("img");
       shieldvisitor.src = "./escudos/" + match.shieldvisitor + ".webp";
       shieldvisitor.alt = "Escudo de " + match.visitor;
-      shieldvisitor.className = "escudo-equipo";
+      shieldvisitor.className = "team-shield";
 
       const result = document.createElement("p");
       result.className = "result";

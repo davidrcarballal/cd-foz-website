@@ -1,6 +1,6 @@
 const all = document.querySelector("#all");
 const played = document.querySelector("#played");
-const pendant = document.querySelector("#pendants");
+const pending = document.querySelector("#pending");
 
 all.addEventListener("click", () => {
   const cards = document.querySelectorAll(".match-card");
@@ -18,10 +18,10 @@ played.addEventListener("click", () => {
   }
 });
 
-pendant.addEventListener("click", () => {
+pending.addEventListener("click", () => {
   const cards = document.querySelectorAll(".match-card");
 
   for (const card of cards) {
-    card.hidden = !card.classList.contains("pendant");
+    card.hidden = !card.classList.contains("pending");
   }
 });
