@@ -7,17 +7,29 @@ html {
   text-align: center;
 }
 
+body {
+  margin: 0;
+}
+section {
+  padding: 60px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
 p {
   text-align: center;
   font-size: 22px;
   line-height: 1.6;
-}
-
-body {
-  text-align: center;
-}
-section {
-  padding: 60px;
 }
 
 header {
@@ -40,14 +52,13 @@ header {
 nav {
   display: flex;
   gap: 20px;
-  color: white;
-  text-decoration: none;
 }
 
 nav a {
   font-size: 18px;
   color: white;
   text-decoration: none;
+  transition: color 0.3s;
 }
 
 nav a:hover {
@@ -61,18 +72,6 @@ nav a:hover {
   margin-top: 30px;
 }
 
-@media (max-width: 900px) {
-  .dynamic {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 600px) {
-  .dynamic {
-    grid-template-columns: 1fr;
-  }
-}
-
 .match-card {
   background-color: #ffffff;
   border: 1px solid #ddd;
@@ -80,6 +79,16 @@ nav a:hover {
   padding: 25px;
   text-align: center;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.match-card:hover {
+  transform: translateY(-5px);
+}
+
+.match-card h2 {
+  color: #c8102e;
+  font-size: 32px;
+  transition: transform 0.3s;
 }
 
 .match-card h3 {
@@ -90,6 +99,22 @@ nav a:hover {
 .match-card p {
   color: #777;
   font-size: 14px;
+}
+
+.match-card[hidden] {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .dynamic {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .dynamic {
+    grid-template-columns: 1fr;
+  }
 }
 
 .escudo-equipo {
@@ -105,71 +130,6 @@ nav a:hover {
   justify-content: center;
   align-items: center;
   gap: 20px;
-}
-
-.match-card h2 {
-  color: #c8102e;
-  font-size: 32px;
-  transition: transform 0.3s;
-}
-
-.match-card:hover {
-  transform: translateY(-5px);
-}
-
-.celebrate,
-.team,
-.town {
-  display: block;
-  width: 90%;
-  max-width: 1200px;
-  height: auto;
-  margin: 30px auto;
-  border-radius: 12px;
-}
-
-.corazon {
-  width: 400px;
-  height: auto;
-  animation: latido 1.2s ease-in-out infinite;
-}
-.twitter {
-  width: 40px;
-  height: auto;
-  margin-left: 25px;
-}
-
-.instagram {
-  width: 40px;
-  height: auto;
-}
-
-.facebook {
-  width: 40px;
-  height: auto;
-  margin-left: 25px;
-}
-
-@keyframes latido {
-  0% {
-    transform: scale(1);
-  }
-
-  25% {
-    transform: scale(1.15);
-  }
-
-  50% {
-    transform: scale(1);
-  }
-
-  75% {
-    transform: scale(1.15);
-  }
-
-  100% {
-    transform: scale(1);
-  }
 }
 
 .filter {
@@ -195,6 +155,43 @@ nav a:hover {
   color: white;
 }
 
-.match-card[hidden] {
-  display: none;
+.celebrate,
+.team,
+.town {
+  display: block;
+  width: 90%;
+  max-width: 1200px;
+  height: auto;
+  margin: 30px auto;
+  border-radius: 12px;
+}
+
+.corazon {
+  width: 400px;
+  height: auto;
+  animation: latido 1.2s ease-in-out infinite;
+}
+.twitter,
+.facebook,
+.instagram {
+  width: 40px;
+  height: auto;
+}
+
+.twitter,
+.facebook {
+  margin-left: 25px;
+}
+
+@keyframes latido {
+  0%,
+  50%,
+  100% {
+    transform: scale(1);
+  }
+
+  25%,
+  75% {
+    transform: scale(1.15);
+  }
 }
