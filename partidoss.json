@@ -2,64 +2,64 @@
   {
     "local": "CD Foz",
     "visitante": "SDC Residencia",
-    "fecha": "2026-09-06",
-    "resultado": "2 - 1",
+    "fecha": 20260906,
+    "resultado": [2,1],
     "escudoLocal": "foz",
     "escudoVisitante": "residencia"
   },
   {
     "local": "Monterroso",
     "visitante": "CD Foz",
-    "fecha": "2026-09-13",
-    "resultado": "0 - 2",
+    "fecha": 20260913,
+    "resultado": [0,2],
     "escudoLocal": "monterroso",
     "escudoVisitante": "foz"
   },
   {
     "local": "CD Foz",
     "visitante": "Pontenova",
-    "fecha": "2026-09-20",
-    "resultado": "3 - 0",
+    "fecha": 20260920,
+    "resultado": [0,3],
     "escudoLocal": "foz",
     "escudoVisitante": "pontenova"
   },
   {
     "local": "Riotorto",
     "visitante": "CD Foz",
-    "fecha": "2026-09-27",
-    "resultado": "1 - 1",
+    "fecha": 20260927,
+    "resultado": [1,1],
     "escudoLocal": "riotorto",
     "escudoVisitante": "foz"
   },
   {
     "local": "Ribadeo FC",
     "visitante": "CD Foz",
-    "fecha": "2026-10-04",
-    "resultado": "2 - 3",
-    "escudoLocal": "escudos/ribadeo",
-    "escudoVisitante": "escudos/foz"
+    "fecha": 20261004,
+    "resultado": [2,3],
+    "escudoLocal": "ribadeo",
+    "escudoVisitante": "foz"
   },
   {
     "local": "CD Foz",
     "visitante": "Atlético Escairón",
-    "fecha": "2026-10-11",
-    "resultado": "2-0",
+    "fecha": 20261011,
+    "resultado": [2,0],
     "escudoLocal": "foz",
     "escudoVisitante": "escairon"
   },
   {
     "local": "Sd Castroverde",
     "visitante": "CD Foz",
-    "fecha": "2026-10-18",
-    "resultado":"1-2",
+    "fecha": 20261018,
+    "resultado":[1,2],
     "escudoLocal": "castroverde",
     "escudoVisitante": "foz"
   },
   {
     "local": "CD Foz",
     "visitante": "Valadouro",
-    "fecha": "2026-10-25",
-    "resultado": "4 - 1",
+    "fecha": 20261025,
+    "resultado": [4,1],
     "escudoLocal": "foz",
     "escudoVisitante": "valadouro"
    
@@ -67,16 +67,16 @@
   {
     "local": "Burela",
     "visitante": "CD Foz",
-    "fecha": "2026-11-01",
-    "resultado": "2 - 2",
+    "fecha": 20261101,
+    "resultado": [2,2],
     "escudoLocal": "burela",
     "escudoVisitante": "foz"
   },
   {
     "local": "CD Foz",
     "visitante": "Castro",
-    "fecha": "2026-11-08",
-    "resultado": "3 - 1",
+    "fecha": 20261108,
+    "resultado": [3,1],
     "escudoLocal": "foz",
     "escudoVisitante": "castro"
 
@@ -84,7 +84,7 @@
   {
     "local": "Folgueiro",
     "visitante": "CD Foz",
-    "fecha": "2026-11-15",
+    "fecha": 20261115,
     "resultado": "Pendiente",
     "escudoLocal": "folgueiro",
     "escudoVisitante": "foz"
@@ -92,7 +92,7 @@
   {
     "local": "CD Foz",
     "visitante": "Mondoñedo",
-    "fecha": "2026-11-22",
+    "fecha": 20261122,
     "resultado": "Pendiente",
     "escudoLocal": "foz",
     "escudoVisitante": "mondoñedo"
@@ -100,7 +100,7 @@
   {
     "local": "Racing Villalbés B",
     "visitante": "CD Foz",
-    "fecha": "2026-11-29",
+    "fecha": 20261129,
     "resultado": "Pendiente",
     "escudoLocal": "villalbes",
     "escudoVisitante": "foz"
@@ -108,7 +108,7 @@
   {
     "local": "CD Foz",
     "visitante": "Santaballés",
-    "fecha": "2026-12-06",
+    "fecha": 20261206,
     "resultado": "Pendiente",
     "escudoLocal": "foz",
     "escudoVisitante": "santaballes"
@@ -116,7 +116,7 @@
   {
     "local": "ED Lourenzá",
     "visitante": "CD Foz",
-    "fecha": "2026-12-13",
+    "fecha": 20261213,
     "resultado": "Pendiente",
     "escudoLocal": "lourenzá",
     "escudoVisitante": "foz"
