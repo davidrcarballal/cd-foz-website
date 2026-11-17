@@ -112,7 +112,8 @@ nav a:hover {
   transform: translateY(-5px);
 }
 
-.plantilla,
+.stadium,
+.team,
 .town {
   display: block;
   width: 90%;
