@@ -4,40 +4,40 @@
     "visitante": "SDC Residencia",
     "fecha": "2026-09-06",
     "resultado": "2 - 1",
-    "escudoLocal": "escudos/foz.png",
-    "escudoVisitante": "escudos/residencia.webp"
+    "escudoLocal": "foz",
+    "escudoVisitante": "residencia"
   },
   {
     "local": "Monterroso",
     "visitante": "CD Foz",
     "fecha": "2026-09-13",
     "resultado": "0 - 2",
-    "escudoLocal": "escudos/monterroso.webp",
-    "escudoVisitante": "escudos/foz.png"
+    "escudoLocal": "monterroso",
+    "escudoVisitante": "foz"
   },
   {
     "local": "CD Foz",
     "visitante": "Pontenova",
     "fecha": "2026-09-20",
     "resultado": "3 - 0",
-    "escudoLocal": "escudos/foz.png",
-    "escudoVisitante": "escudos/pontenova.webp"
+    "escudoLocal": "foz",
+    "escudoVisitante": "pontenova"
   },
   {
     "local": "Riotorto",
     "visitante": "CD Foz",
     "fecha": "2026-09-27",
     "resultado": "1 - 1",
-    "escudoLocal": "escudos/riotorto.webp",
-    "escudoVisitante": "escudos/foz.png"
+    "escudoLocal": "riotorto",
+    "escudoVisitante": "foz"
   },
   {
     "local": "Ribadeo FC",
     "visitante": "CD Foz",
     "fecha": "2026-10-04",
     "resultado": "2 - 3",
-    "escudoLocal": "escudos/ribadeo.webp",
-    "escudoVisitante": "escudos/foz.png"
+    "escudoLocal": "escudos/ribadeo",
+    "escudoVisitante": "escudos/foz"
   },
   {
     "local": "CD Foz",
@@ -52,16 +52,16 @@
     "visitante": "CD Foz",
     "fecha": "2026-10-18",
     "resultado":"1-2",
-    "escudoLocal": "castroverde.webp",
-    "escudoVisitante": "foz.png"
+    "escudoLocal": "castroverde",
+    "escudoVisitante": "foz"
   },
   {
     "local": "CD Foz",
     "visitante": "Valadouro",
     "fecha": "2026-10-25",
     "resultado": "4 - 1",
-    "escudoLocal": "foz.png",
-    "escudoVisitante": "valadouro.webp"
+    "escudoLocal": "foz",
+    "escudoVisitante": "valadouro"
    
   },
   {
@@ -69,16 +69,16 @@
     "visitante": "CD Foz",
     "fecha": "2026-11-01",
     "resultado": "2 - 2",
-    "escudoLocal": "burela.webp",
-    "escudoVisitante": "foz.png"
+    "escudoLocal": "burela",
+    "escudoVisitante": "foz"
   },
   {
     "local": "CD Foz",
     "visitante": "Castro",
     "fecha": "2026-11-08",
     "resultado": "3 - 1",
-    "escudoLocal": "foz.png",
-    "escudoVisitante": "castro.webp"
+    "escudoLocal": "foz",
+    "escudoVisitante": "castro"
 
   },
   {
@@ -86,32 +86,32 @@
     "visitante": "CD Foz",
     "fecha": "2026-11-15",
     "resultado": "Pendiente",
-    "escudoLocal": "folgueiro.webp",
-    "escudoVisitante": "foz.png"
+    "escudoLocal": "folgueiro",
+    "escudoVisitante": "foz"
   },
   {
     "local": "CD Foz",
     "visitante": "Mondoñedo",
     "fecha": "2026-11-22",
     "resultado": "Pendiente",
-    "escudoLocal": "foz.png",
-    "escudoVisitante": "mondoñedo.webp"
+    "escudoLocal": "foz",
+    "escudoVisitante": "mondoñedo"
   },
   {
     "local": "Racing Villalbés B",
     "visitante": "CD Foz",
     "fecha": "2026-11-29",
     "resultado": "Pendiente",
-    "escudoLocal": "villalbes.webp",
-    "escudoVisitante": "foz.png"
+    "escudoLocal": "villalbes",
+    "escudoVisitante": "foz"
   },
   {
     "local": "CD Foz",
     "visitante": "Santaballés",
     "fecha": "2026-12-06",
     "resultado": "Pendiente",
-    "escudoLocal": "foz.png",
-    "escudoVisitante": "santaballes.webp"
+    "escudoLocal": "foz",
+    "escudoVisitante": "santaballes"
   },
   {
     "local": "ED Lourenzá",
