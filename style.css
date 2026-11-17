@@ -16,6 +16,9 @@ p {
 body {
   text-align: center;
 }
+section {
+  padding: 60px;
+}
 
 header {
   display: flex;
