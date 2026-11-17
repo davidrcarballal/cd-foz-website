@@ -26,4 +26,4 @@ This website is an unofficial academic project.
 Match results are fictional and are used for demonstration purposes only.
 
 ## Live Website
-https://davidrcarballal.github.io/cd-foz-website/#partidos
+https://davidrcarballal.github.io/cd-foz-website
