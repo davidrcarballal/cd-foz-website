@@ -1,4 +1,6 @@
 html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
   color: #edf1f1;
   background-color: #c8102e;
   font-family: Arial, Helvetica, sans-serif;
