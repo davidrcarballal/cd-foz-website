@@ -11,38 +11,51 @@ async function main() {
 
         const partidos = await response.json();
 
-         for (const partido of partidos) {
+        for (const partido of partidos) {
 
             const entry = document.createElement('div');
             entry.className = 'partido-card';
 
-            // Nombre de los equipos
+      
             const title = document.createElement('h3');
             title.textContent =
                 partido.local + ' vs ' + partido.visitante;
 
-            // Fecha
+          
             const fecha = document.createElement('p');
-            fecha.textContent = 'Fecha: ' + partido.fecha;
+            const fechaString = String(partido.fecha);
 
-            // Escudo local
+            const año = fechaString.slice(0, 4);
+            const mes = fechaString.slice(4, 6);
+            const dia = fechaString.slice(6, 8);
+
+            fecha.textContent = 'Fecha: ' + dia + '/' + mes + '/' + año;
+
+            
+            
+            
             const escudoLocal = document.createElement('img');
-            escudoLocal.src = partido.escudoLocal;
+            escudoLocal.src = './escudos/' + partido.escudoLocal + '.webp';
             escudoLocal.alt = 'Escudo de ' + partido.local;
             escudoLocal.className = 'escudo-equipo';
 
-            // Escudo visitante
+           
             const escudoVisitante = document.createElement('img');
-            escudoVisitante.src = partido.escudoVisitante;
+            escudoVisitante.src = './escudos/' + partido.escudoVisitante + '.webp';
             escudoVisitante.alt = 'Escudo de ' + partido.visitante;
             escudoVisitante.className = 'escudo-equipo';
 
-            // Resultado
+           
             const resultado = document.createElement('p');
-            resultado.textContent = partido.resultado;
             resultado.className = 'resultado';
+            if (partido.resultado !== null) {
+                resultado.textContent =
+                    partido.resultado[0] + ' - ' + partido.resultado[1];
+            } else {
+                resultado.textContent = 'Pendiente';
+            }
 
-            // Contenedor del marcador
+            
             const marcador = document.createElement('div');
             marcador.className = 'marcador';
 
@@ -56,12 +69,12 @@ async function main() {
                 marcador.appendChild(escudoVisitante);
             }
 
-            // Añadir elementos a la tarjeta
+          
             entry.appendChild(title);
             entry.appendChild(fecha);
             entry.appendChild(marcador);
 
-            // Añadir tarjeta a la página
+       
             section.appendChild(entry);
         }
 

@@ -85,7 +85,7 @@
     "local": "Folgueiro",
     "visitante": "CD Foz",
     "fecha": 20261115,
-    "resultado": "Pendiente",
+    "resultado": null,
     "escudoLocal": "folgueiro",
     "escudoVisitante": "foz"
   },
@@ -93,7 +93,7 @@
     "local": "CD Foz",
     "visitante": "Mondoñedo",
     "fecha": 20261122,
-    "resultado": "Pendiente",
+    "resultado": null,
     "escudoLocal": "foz",
     "escudoVisitante": "mondoñedo"
   },
@@ -101,7 +101,7 @@
     "local": "Racing Villalbés B",
     "visitante": "CD Foz",
     "fecha": 20261129,
-    "resultado": "Pendiente",
+    "resultado": null,
     "escudoLocal": "villalbes",
     "escudoVisitante": "foz"
   },
@@ -109,7 +109,7 @@
     "local": "CD Foz",
     "visitante": "Santaballés",
     "fecha": 20261206,
-    "resultado": "Pendiente",
+    "resultado": null,
     "escudoLocal": "foz",
     "escudoVisitante": "santaballes"
   },
@@ -117,7 +117,7 @@
     "local": "ED Lourenzá",
     "visitante": "CD Foz",
     "fecha": 20261213,
-    "resultado": "Pendiente",
+    "resultado": null,
     "escudoLocal": "lourenzá",
     "escudoVisitante": "foz"
   }
