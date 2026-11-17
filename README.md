@@ -13,8 +13,17 @@ while providing a simple and interactive user experience.
 
 Match information is stored in a JSON file.
 JavaScript processes the dates, scores and team shield
-identifiers before dynamically displaying the match cards.This website is an unofficial academic project.
+identifiers before dynamically displaying the match cards.
+## Tools and languages used
+- HTML
+- JavaScript
+- JSON
+- CSS
+- Git and GitHub Pages
+
+## Disclaimer
+This website is an unofficial academic project.
 Match results are fictional and are used for demonstration purposes only.
 
-##Tools and languages used
-
+## Live Website
+https://davidrcarballal.github.io/cd-foz-website/#partidos
