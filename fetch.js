@@ -5,7 +5,7 @@ async function main() {
     const response = await fetch("./partidoss.json");
 
     if (!response.ok) {
-      throw new Error("Error al cargar los matches");
+      throw new Error("Error al cargar los partidos");
     }
 
     const matches = await response.json();

@@ -1,27 +1,27 @@
-const todos = document.querySelector("#todos");
-const jugados = document.querySelector("#jugados");
-const pendientes = document.querySelector("#pendientes");
+const all = document.querySelector("#todos");
+const played = document.querySelector("#jugados");
+const pendant = document.querySelector("#pendientes");
 
-todos.addEventListener("click", () => {
-  const tarjetas = document.querySelectorAll(".match-card");
+all.addEventListener("click", () => {
+  const cards = document.querySelectorAll(".match-card");
 
-  for (const tarjeta of tarjetas) {
-    tarjeta.hidden = false;
+  for (const card of cards) {
+    card.hidden = false;
   }
 });
 
-jugados.addEventListener("click", () => {
-  const tarjetas = document.querySelectorAll(".match-card");
+played.addEventListener("click", () => {
+  const cards = document.querySelectorAll(".match-card");
 
-  for (const tarjeta of tarjetas) {
-    tarjeta.hidden = !tarjeta.classList.contains("jugado");
+  for (const card of cards) {
+    card.hidden = !card.classList.contains("jugado");
   }
 });
 
-pendientes.addEventListener("click", () => {
-  const tarjetas = document.querySelectorAll(".match-card");
+pendant.addEventListener("click", () => {
+  const cards = document.querySelectorAll(".match-card");
 
-  for (const tarjeta of tarjetas) {
-    tarjeta.hidden = !tarjeta.classList.contains("pendiente");
+  for (const card of cards) {
+    card.hidden = !card.classList.contains("pendiente");
   }
 });
